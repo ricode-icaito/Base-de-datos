@@ -18,8 +18,8 @@ h1:hover {
 }
 
 .contenedor {
-  width: 98vw;
-  height: 97vh;
+  width: 100vw;
+  height: 10vh;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
