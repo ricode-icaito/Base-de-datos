@@ -3,12 +3,15 @@
 }
 
 body {
-  background: cadetblue;
+  background: url("https://img.freepik.com/free-psd/3d-rendering-questions-background_23-2151455632.jpg?w=360");
   padding: 0;
   margin: 0;
   text-align: center;
-  font-family: calibri;
   font-size: 120%;
+}
+
+h1 {
+  font-family: "Comic sans MS";
 }
 
 h1:hover {
@@ -28,9 +31,9 @@ h1:hover {
 
 .encabezado {
   position: relative;
-  background: rgb(238, 129, 129);
+  background: url("https://img.freepik.com/vector-premium/espectro-color-clasico-rgb-degradado-linea-vector_522680-173.jpg");
   min-width: 300px;
-  width: 70%;
+  width: 60%;
   max-width: 600px;
   padding: 10px;
 }
@@ -42,7 +45,8 @@ h1:hover {
 
 .pregunta {
   padding: 10px;
-  color: white;
+  color: rgb(12, 11, 11);
+  font-weight: bold;
 }
 
 .imagen {
@@ -52,16 +56,22 @@ h1:hover {
 }
 
 .btn {
-  background: white;
+  background: gray;
+  color: black;
   width: 60%;
   max-width: 550px;
   padding: 10px;
   margin: 5px;
-  cursor: pointer;
 }
 
 .btn:hover {
-  transform: scale(1.05);
+  background-image: url("donde.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 5vh;
+  color: rgb(6, 233, 36);
+  transform: scale(1.2);
+  cursor: pointer;
 }
     
 .numero{
@@ -73,5 +83,5 @@ h1:hover {
     
 .puntaje{
   padding:10px;
-  color:rgb(241, 157, 157);
+  color:rgb(238, 12, 12);
 }
