@@ -12,12 +12,18 @@ body {
 
 h1 {
   font-family: "Comic sans MS";
+  background: green;
+  border-radius: 10px;
 }
 
 h1:hover {
-  background: grey;
+  background: rgb(48, 77, 241);
   color: white;
   cursor: pointer;
+}
+
+h2 {
+  color: red;
 }
 
 .contenedor {
@@ -83,5 +89,7 @@ h1:hover {
     
 .puntaje{
   padding:10px;
-  color:rgb(238, 12, 12);
+  color: blue;
+  font-weight: bold;
+  font-size: 30px;
 }
